@@ -1,21 +1,28 @@
 
 import java.awt.event.KeyEvent;
 
-
-
+/**
+ *
+ * @author Antonio Jesús Téllez Perdigones
+ */
 public class CrearPartido extends javax.swing.JFrame
 {
    
     
     private Apuesta v;
     
-   
+    /**
+     * constructor CrearPartido
+     */
     public CrearPartido() 
     {
         initComponents();
     }
 
-   
+    /**
+     *
+     * @param ventana es un parámetro
+     */
     public CrearPartido(Apuesta ventana) 
     {
         initComponents();
@@ -70,6 +77,10 @@ public class CrearPartido extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     *
+     * @param p es un parámetro de tipo string
+     */
     public void añadePartido(String p)
     {
         v.agregarPartido(p);
@@ -88,7 +99,10 @@ public class CrearPartido extends javax.swing.JFrame
         }
     }//GEN-LAST:event_tPartidoKeyPressed
 
-    
+    /**
+     *
+     * @param args argumentos del método main
+     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
