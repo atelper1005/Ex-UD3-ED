@@ -137,7 +137,11 @@ public class Apuesta extends javax.swing.JFrame {
         agregarpartido.setTitle("Agregar nuevo partido");
         agregarpartido.setVisible(Boolean.TRUE);
     }//GEN-LAST:event_bNuevoActionPerformed
-
+    
+/**
+ * 
+ * @param evt 
+ */
     private void bEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bEliminarActionPerformed
         eliminarPartido(listaQuiniela.getSelectedIndex());
     }//GEN-LAST:event_bEliminarActionPerformed
@@ -152,7 +156,7 @@ public class Apuesta extends javax.swing.JFrame {
      *
      * @param n1 es un número cualquiera
      * @param n2 es otro número cualquiera
-     * @return
+     * @return o
      */
     public int cualquiera(int n1, int n2)
     {
@@ -187,7 +191,7 @@ public class Apuesta extends javax.swing.JFrame {
 
     /**
      *
-     * @param partido es una cadena de caracteres
+     * @param partido es una variable cadena de caracteres o String
      */
     public void agregarPartido(String partido)
     {
